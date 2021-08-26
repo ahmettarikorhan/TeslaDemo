@@ -12,7 +12,7 @@ const CarsList = (props) => {
             renderItem = {({item}) => <CarItem car={item}/>}
             showsVerticalScrollIndicator={false}
             snapToAlignment={"start"}
-            decelerationRate={"slow"}
+            decelerationRate={"fast"}
             snapToInterval={Dimensions.get("window").height}
             />
         </View>
